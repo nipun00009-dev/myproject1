@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuteDude Learning Platform</title>
+</head>
+
+<body>
+
+    <!-- HEADER SECTION -->
+    <header>
+        <h1>Welcome to <mark>TuteDude</mark></h1>
+
+        <p>
+            Learn modern skills with
+            <strong>industry experts</strong> and build your future through
+            <em>interactive learning</em>.
+        </p>
+
+        <!-- NAVIGATION -->
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Courses</a></li>
+                <li><a href="#trivia">Trivia</a></li>
+                <li><a href="#extras">Extras</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+            </ul>
+        </nav>
+
+        <!-- HERO IMAGE -->
+        <figure>
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
+                alt="Students learning together" width="600">
+
+            <figcaption>
+                Empowering students through quality online education.
+            </figcaption>
+        </figure>
+    </header>
+
+    <!-- MAIN SECTION -->
+    <main>
+
+        <!-- ABOUT SECTION -->
+        <section id="about">
+            <h2>About TuteDude</h2>
+
+            <article>
+                <p>
+                    <strong>TuteDude</strong> is an innovative online learning platform established in
+                    <time datetime="2020">2020</time>.
+                    It helps students master skills in
+                    <abbr title="HyperText Markup Language">HTML</abbr>,
+                    CSS, JavaScript, and more.
+                </p>
+
+                <blockquote>
+                    "Education is the passport to the future, for tomorrow belongs to those who prepare for it today."
+                    <cite>— Malcolm X</cite>
+                </blockquote>
+            </article>
+        </section>
+
+        <!-- MENU / COURSES SECTION -->
+        <section id="menu">
+            <h2>Popular Courses</h2>
+
+            <table border="1" cellpadding="10">
+                <thead>
+                    <tr>
+                        <th>Course</th>
+                        <th>Duration</th>
+                        <th>Level</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>HTML Basics</td>
+                        <td>4 Weeks</td>
+                        <td>Beginner</td>
+
+                        <td>
+                            <!-- NESTED TABLE -->
+                            <table border="1">
+                                <tr>
+                                    <th>Modules</th>
+                                    <th>Projects</th>
+                                </tr>
+
+                                <tr>
+                                    <td>10</td>
+                                    <td>2</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>CSS Mastery</td>
+                        <td>6 Weeks</td>
+                        <td>Intermediate</td>
+
+                        <td>
+                            <table border="1">
+                                <tr>
+                                    <th>Modules</th>
+                                    <th>Projects</th>
+                                </tr>
+
+                                <tr>
+                                    <td>15</td>
+                                    <td>4</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="4">
+                            New courses are added every month!
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <!-- TRIVIA SECTION -->
+        <section id="trivia">
+            <h2>Learning Trivia</h2>
+
+            <aside>
+                <details>
+                    <summary>Did you know?</summary>
+
+                    <p>
+                        The first website was created in 1991 by Tim Berners-Lee.
+                    </p>
+
+                    <p>
+                        HTML is the backbone of every webpage on the internet.
+                    </p>
+                </details>
+            </aside>
+        </section>
+
+        <!-- EXTRAS SECTION -->
+        <section id="extras">
+            <h2>Extras</h2>
+
+            <!-- AUDIO -->
+            <h3>Motivational Audio</h3>
+
+            <audio controls>
+                <source src="sample-audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <!-- VIDEO -->
+            <h3>Platform Introduction Video</h3>
+
+            <video width="500" controls>
+                <source src="sample-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <!-- FEEDBACK FORM -->
+        <section id="feedback">
+            <h2>Feedback Form</h2>
+
+            <form action="#" method="post">
+
+                <fieldset>
+                    <legend>Student Feedback</legend>
+
+                    <!-- NAME -->
+                    <p>
+                        <label for="name">Full Name:</label><br>
+                        <input type="text" id="name" name="name" required>
+                    </p>
+
+                    <!-- EMAIL -->
+                    <p>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+
+                    <!-- DROPDOWN -->
+                    <p>
+                        <label for="course">Favorite Course:</label><br>
+
+                        <select id="course" name="course">
+                            <option value="html">HTML Basics</option>
+                            <option value="css">CSS Mastery</option>
+                            <option value="js">JavaScript</option>
+                        </select>
+                    </p>
+
+                    <!-- TEXTAREA -->
+                    <p>
+                        <label for="message">Your Feedback:</label><br>
+
+                        <textarea id="message" name="message" rows="5" cols="40"></textarea>
+                    </p>
+
+                    <!-- SUBMIT BUTTON -->
+                    <button type="submit">Submit Feedback</button>
+
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <address>
+            Contact us at:
+            <a href="mailto:support@tutedude.com">
+                support@tutedude.com
+            </a>
+            <br>
+            Anand, Gujarat, India
+        </address>
+
+        <p>
+            &copy;
+            <time datetime="2026">2026</time>
+            TuteDude. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
